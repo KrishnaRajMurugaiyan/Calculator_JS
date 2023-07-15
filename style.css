@@ -1,0 +1,152 @@
+#cont
+{
+   height: 9cm;
+   width: 10cm;
+   margin-left: 8.5cm;
+   margin-top: 1cm;
+   border-radius: 10px;
+   background-color: skyblue;
+} 
+#disp
+{
+  height:1cm;
+  width: 8.5cm;
+  position: relative;
+  left: 0.65cm;
+  top: 0.5cm;
+  border-radius: 5px;
+  border-color:rgb(183, 183, 228);
+  background-color: white;
+  font-size: larger;
+}
+#buttons
+{
+  height: 6.2cm;
+  width: 7cm;
+  background-color: cadetblue;
+  position: relative;
+  top: 1cm;
+  left: 0.66cm;
+}
+.num
+{
+   font-size: larger;
+   position: relative;
+   height: 1cm;
+   width: 1.5cm;
+   border-radius: 5px;
+   border-color: white;
+} 
+.num:hover
+{
+   background-color:lightgray;
+}
+#btn1
+{
+   left:0.5cm;
+   top: 0.4cm;
+}
+#btn2
+{
+   left: 1.15cm;
+   top: 0.4cm;
+}
+#btn3
+{
+   left: 1.8cm;
+   top: 0.4cm;
+}
+#btn4
+{
+   left: -4.32cm;
+   top: 1.7cm;
+}
+#btn5
+{
+   left: 2.76cm;
+   top: 0.7cm;
+}
+#btn6
+{
+   left: 3.40cm;
+   top: 0.7cm;
+}
+#btn7
+{
+   left: 1.8cm;
+   top: 2cm;
+}
+#btn8
+{
+   left: -2.05cm;
+   top:2cm;
+}
+#btn9
+{
+   left: 0.49cm;
+   top: 1cm;
+}
+.back
+{
+   position: relative;
+   height: 1cm;
+   width: 2.5cm;
+   background-color: white;
+   border-color: white;
+   border-radius: 5px;
+}
+#btn10
+{
+   height: 1cm;
+   width:1cm ;
+   top: -0.4cm;
+   left: -6.82cm;
+}
+#btn11
+{
+   width: 1cm;
+   top: 2.8cm;
+   left: 1.9cm;
+   font-size: larger;
+}
+#btn11:hover
+{
+   background-color:lightgray;
+}
+#btn12
+{
+   left: 8cm;
+   top: -5.19cm;
+}
+#btn13
+{
+   left: 6.4cm;
+   top: -3.9cm;
+}
+#btn14
+{
+   left: 4.80cm;
+   top: -2.65cm;
+}
+#btn15
+{
+   left: 3.2cm;
+   top: -1.37cm;
+}
+#btn16
+{
+   left: 1.6cm;
+   top: -0.1cm;
+}
+#btn19
+{
+   left: 2.3cm;
+   top: 2.8cm;
+}
+#btn20
+{
+   height: 1cm;
+   width:1cm ;
+   left: 2.7cm;
+   top: -1.4cm;
+}

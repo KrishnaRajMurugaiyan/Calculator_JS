@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="./app.js">
+</script>
+<body onload="zero()">
+   <form action="#">
+    <div id="cont">
+     <input type="text" id="disp" disabled placeholder="0">
+     <div id="buttons">
+        <button id="btn1" class="num" onclick='calc("7")'>7</button>
+        <button id="btn2" class="num" onclick='calc("8")'>8</button>
+        <button id="btn3" class="num" onclick='calc("9")'>9</button>
+        <button id="btn4" class="num" onclick='calc("4")'>4</button>
+        <button id="btn5" class="num" onclick='calc("5")'>5</button>
+        <button id="btn6" class="num" onclick='calc("6")'>6</button>
+        <button id="btn7" class="num" onclick='calc("3")'>3</button>
+        <button id="btn8" class="num" onclick='calc("2")'>2</button>
+        <button id="btn9" class="num" onclick='calc("1")'>1</button>
+        <button id="btn11" class="back" onclick='calc(".")'>.</button>
+        <button id="btn19" class="num" onclick='calc("0")'>0</button>
+     </div>
+      <button id="btn12" class="num" onclick="calc('+')">+</button>
+      <button id="btn13" class="num" onclick="calc('-')">-</button>
+      <button id="btn14" class="num" onclick="calc('*')">*</button>
+      <button id="btn15" class="num" onclick="calc('/')">/</button>
+      <button id="btn16" class="num" onclick="evaluation()">=</button>
+      <button id="btn10" class="num" onclick="zero(),initialize()">CE</button>
+      <button id="btn20" class="num" onclick="del()">&#8592</button>
+    </div>
+   </form>
+</body>
+</html>
